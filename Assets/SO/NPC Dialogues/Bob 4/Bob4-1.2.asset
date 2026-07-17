@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d1be2fd36ed67449d1a761e9ba86f3, type: 3}
+  m_Name: Bob4-1.2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNodeSO
+  Response: Okay thanks, bye
+  Text: []
+  TextTimers: []
+  children: []
+  script:
+  - {fileID: 11400000, guid: 4687fbd65d84371469ea422300d033e9, type: 2}
+  id: 21
