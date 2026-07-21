@@ -137,7 +137,7 @@ MonoBehaviour:
   Path: FMODAssets/Build/Desktop/PlayerMovement.bank
   Name: PlayerMovement
   StudioPath: bank:/PlayerMovement
-  lastModified: 639190526981959517
+  lastModified: 639201650383442884
   FileSizes:
   - Name: Desktop
     Value: 14592
@@ -281,7 +281,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 5886571781006903656}
   cacheVersion: 131860
-  cacheTime: 639199139559336223
+  cacheTime: 639201650383442884
   SerializableEventsDict:
   - key: event:/Lamp Buzz
     index: 0
@@ -308,7 +308,7 @@ MonoBehaviour:
   Path: FMODAssets/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639199060015519813
+  lastModified: 639201650383432872
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -352,7 +352,7 @@ MonoBehaviour:
   Path: FMODAssets/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 639199062433991120
+  lastModified: 639201650383337857
   FileSizes:
   - Name: Desktop
     Value: 197280
@@ -446,7 +446,7 @@ MonoBehaviour:
   Path: FMODAssets/Build/Desktop/BG Music.bank
   Name: BG Music
   StudioPath: bank:/BG Music
-  lastModified: 639199139559336223
+  lastModified: 639201650383427864
   FileSizes:
   - Name: Desktop
     Value: 1620128
@@ -486,7 +486,7 @@ MonoBehaviour:
   Path: FMODAssets/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639199060015524802
+  lastModified: 639201650383437867
   FileSizes:
   - Name: Desktop
     Value: 1150
