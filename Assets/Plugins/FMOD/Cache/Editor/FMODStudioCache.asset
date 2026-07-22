@@ -137,7 +137,7 @@ MonoBehaviour:
   Path: FMODAssets/Build/Desktop/PlayerMovement.bank
   Name: PlayerMovement
   StudioPath: bank:/PlayerMovement
-  lastModified: 639201540977776208
+  lastModified: 639203327507175344
   FileSizes:
   - Name: Desktop
     Value: 506
@@ -157,10 +157,10 @@ MonoBehaviour:
   Path: FMODAssets/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639201547487679093
+  lastModified: 639203345930906944
   FileSizes:
   - Name: Desktop
-    Value: 1417792
+    Value: 2369184
   Exists: 1
 --- !u!114 &-3841194165572731844
 MonoBehaviour:
@@ -189,6 +189,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7836
+--- !u!114 &-3788774256538420918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PipeWater
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/PipeWater
+  Guid:
+    Data1: 1804204464
+    Data2: 1091576108
+    Data3: -2096082022
+    Data4: -670209232
+  Banks:
+  - {fileID: -4358297269755785111}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 39312
 --- !u!114 &-3617020668197004846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,14 +322,16 @@ MonoBehaviour:
   - {fileID: -7516432991882344422}
   - {fileID: -3617020668197004846}
   - {fileID: -6524299197916897891}
-  - {fileID: 1819778730628203658}
+  - {fileID: -3788774256538420918}
+  - {fileID: 2726314505132709519}
+  - {fileID: 5985655593913769194}
   EditorParameters: []
   MasterBanks:
   - {fileID: 961994761883066828}
   StringsBanks:
   - {fileID: 5886571781006903656}
   cacheVersion: 131860
-  cacheTime: 639201547487679093
+  cacheTime: 639203345930906944
   SerializableEventsDict:
   - key: event:/Lamp Buzz
     index: 0
@@ -314,8 +343,12 @@ MonoBehaviour:
     index: 3
   - key: event:/Basic Footstep
     index: 4
-  - key: event:/AC
+  - key: event:/PipeWater
     index: 5
+  - key: event:/AC
+    index: 6
+  - key: event:/Wind
+    index: 7
 --- !u!114 &961994761883066828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -331,7 +364,7 @@ MonoBehaviour:
   Path: FMODAssets/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639201540977751208
+  lastModified: 639203341631116554
   FileSizes:
   - Name: Desktop
     Value: 1754
@@ -360,7 +393,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &1819778730628203658
+--- !u!114 &2726314505132709519
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -374,10 +407,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
   Path: event:/AC
   Guid:
-    Data1: 481717573
-    Data2: 1257787898
-    Data3: -2069516384
-    Data4: 1294619232
+    Data1: 969263401
+    Data2: 1193582821
+    Data3: 1817320097
+    Data4: 1328812640
   Banks:
   - {fileID: -4358297269755785111}
   IsStream: 1
@@ -386,7 +419,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 52000
+  Length: 104064
 --- !u!114 &3494885472368610762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -496,11 +529,38 @@ MonoBehaviour:
   Path: FMODAssets/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639201540977756211
+  lastModified: 639203341631131637
   FileSizes:
   - Name: Desktop
-    Value: 1406
+    Value: 1492
   Exists: 1
+--- !u!114 &5985655593913769194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Wind
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Wind
+  Guid:
+    Data1: 1887098932
+    Data2: 1110597335
+    Data3: -1603982929
+    Data4: -1632329376
+  Banks:
+  - {fileID: -4358297269755785111}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11000
 --- !u!114 &6308531392458636793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -516,7 +576,7 @@ MonoBehaviour:
   Path: FMODAssets/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639201541945044566
+  lastModified: 639203327507095033
   FileSizes:
   - Name: Desktop
     Value: 1620256
