@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{86c02347-2e39-4dd7-a3b9-8d820d0b8760}">
+		<property name="assetPath">
+			<value>Rsonance of loss.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>51.748571428571431</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4fd51c9a-c4c2-429f-921d-6123e74ffb40}</destination>
+		</relationship>
+	</object>
+</objects>
