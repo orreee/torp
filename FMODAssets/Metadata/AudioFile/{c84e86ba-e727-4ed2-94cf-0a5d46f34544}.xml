@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{c84e86ba-e727-4ed2-94cf-0a5d46f34544}">
+		<property name="assetPath">
+			<value>soundreality-opening-door-411632.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.04</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4fd51c9a-c4c2-429f-921d-6123e74ffb40}</destination>
+		</relationship>
+	</object>
+</objects>
