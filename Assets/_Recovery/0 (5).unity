@@ -479,7 +479,7 @@ Transform:
   m_GameObject: {fileID: 95269176}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 58.05, y: 18.52, z: 173.95}
+  m_LocalPosition: {x: 58.01, y: 18.89, z: 170.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -738,7 +738,7 @@ Transform:
   m_GameObject: {fileID: 131797616}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.09, y: 16.8, z: 172.62}
+  m_LocalPosition: {x: 30.38, y: 19.69, z: 172.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1695,7 +1695,7 @@ GameObject:
   - component: {fileID: 465691911}
   - component: {fileID: 465691912}
   m_Layer: 0
-  m_Name: Street
+  m_Name: Streets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1710,7 +1710,7 @@ Transform:
   m_GameObject: {fileID: 465691910}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.56, y: 0.75, z: 169.65}
+  m_LocalPosition: {x: 43.56, y: 5.31, z: 169.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1744,9 +1744,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 1
+  OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 35
+  OverrideMaxDistance: 20
 --- !u!1 &474398661
 GameObject:
   m_ObjectHideFlags: 0
@@ -1773,7 +1773,7 @@ Transform:
   m_GameObject: {fileID: 474398661}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 49.52, y: 13.8, z: 138.16}
+  m_LocalPosition: {x: 49.83, y: 15.85, z: 135.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2445,7 +2445,7 @@ Transform:
   m_GameObject: {fileID: 772757620}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.07, y: 16.97, z: 140.02}
+  m_LocalPosition: {x: 19.56, y: 23.16, z: 139.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2559,6 +2559,69 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da024e0a2502e914db645a78af4b3549, type: 3}
+--- !u!1 &791710215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 791710216}
+  - component: {fileID: 791710217}
+  m_Layer: 0
+  m_Name: Water dripping (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &791710216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791710215}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 38.3, y: 7.73, z: 128.57}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1405298184}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &791710217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791710215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1766870622
+      Data2: 1263473971
+      Data3: -2025605469
+      Data4: -1756893083
+    Path: event:/Water drops
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 10
 --- !u!1 &806161683
 GameObject:
   m_ObjectHideFlags: 0
@@ -3243,7 +3306,7 @@ GameObject:
   - component: {fileID: 858002839}
   - component: {fileID: 858002840}
   m_Layer: 0
-  m_Name: Street
+  m_Name: Streets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3258,7 +3321,7 @@ Transform:
   m_GameObject: {fileID: 858002838}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 59.87, y: 0.08, z: 163.53}
+  m_LocalPosition: {x: 59.28, y: 5.31, z: 162.49}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3292,9 +3355,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 1
+  OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 35
+  OverrideMaxDistance: 20
 --- !u!1 &865529133
 GameObject:
   m_ObjectHideFlags: 0
@@ -4147,69 +4210,6 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 1
   OverrideMaxDistance: 10
---- !u!1 &1254200653
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1254200654}
-  - component: {fileID: 1254200655}
-  m_Layer: 0
-  m_Name: Street
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1254200654
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1254200653}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.39, y: 2.25, z: 141.55}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1405298184}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1254200655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1254200653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1668596520
-      Data2: 1316105754
-      Data3: 859965313
-      Data4: 744745756
-    Path: event:/Street ambience
-  Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 35
 --- !u!1 &1258754792
 GameObject:
   m_ObjectHideFlags: 0
@@ -4241,6 +4241,69 @@ Transform:
   m_Children: []
   m_Father: {fileID: 258319254}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1262240859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1262240860}
+  - component: {fileID: 1262240861}
+  m_Layer: 0
+  m_Name: Water dripping
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1262240860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262240859}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 50.226, y: 9.281, z: 147.855}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1405298184}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1262240861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262240859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1766870622
+      Data2: 1263473971
+      Data3: -2025605469
+      Data4: -1756893083
+    Path: event:/Water drops
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 10
 --- !u!1001 &1262656904
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4646,6 +4709,69 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3431203737167958816, guid: da024e0a2502e914db645a78af4b3549, type: 3}
   m_PrefabInstance: {fileID: 790541216}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1363390437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1363390438}
+  - component: {fileID: 1363390439}
+  m_Layer: 0
+  m_Name: Water dripping (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1363390438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363390437}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 39.09, y: 13.3, z: 5.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1405298184}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1363390439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363390437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1766870622
+      Data2: 1263473971
+      Data3: -2025605469
+      Data4: -1756893083
+    Path: event:/Water drops
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 10
 --- !u!1 &1405298183
 GameObject:
   m_ObjectHideFlags: 0
@@ -4656,7 +4782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1405298184}
   m_Layer: 0
-  m_Name: Ambiance
+  m_Name: Ambience
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4679,11 +4805,13 @@ Transform:
   - {fileID: 1592138128}
   - {fileID: 465691911}
   - {fileID: 858002839}
-  - {fileID: 1254200654}
   - {fileID: 95269177}
   - {fileID: 474398662}
   - {fileID: 1655634074}
   - {fileID: 772757621}
+  - {fileID: 1262240860}
+  - {fileID: 791710216}
+  - {fileID: 1363390438}
   m_Father: {fileID: 715911903}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1438099293
@@ -5096,7 +5224,7 @@ GameObject:
   - component: {fileID: 1592138128}
   - component: {fileID: 1592138129}
   m_Layer: 0
-  m_Name: Street
+  m_Name: Streets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5111,7 +5239,7 @@ Transform:
   m_GameObject: {fileID: 1592138127}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.16, y: -2.02, z: 162.5}
+  m_LocalPosition: {x: 26.46, y: 5.31, z: 161.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5145,9 +5273,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 1
+  OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 35
+  OverrideMaxDistance: 20
 --- !u!1 &1647177131
 GameObject:
   m_ObjectHideFlags: 0
@@ -5232,7 +5360,7 @@ Transform:
   m_GameObject: {fileID: 1655634073}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.36, y: 19.41, z: 153.4}
+  m_LocalPosition: {x: 16.06, y: 21.14, z: 152.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -479,7 +479,7 @@ Transform:
   m_GameObject: {fileID: 95269176}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 58.05, y: 18.52, z: 173.95}
+  m_LocalPosition: {x: 54.45, y: 5.31, z: 170.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -513,9 +513,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 1
+  OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 30
+  OverrideMaxDistance: 20
 --- !u!1001 &114838576
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -738,7 +738,7 @@ Transform:
   m_GameObject: {fileID: 131797616}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.09, y: 16.8, z: 172.62}
+  m_LocalPosition: {x: 33.38, y: 5.31, z: 170.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -772,9 +772,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 1
+  OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 30
+  OverrideMaxDistance: 20
 --- !u!1 &138952158
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,7 +1695,7 @@ GameObject:
   - component: {fileID: 465691911}
   - component: {fileID: 465691912}
   m_Layer: 0
-  m_Name: Street
+  m_Name: AC (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1710,7 +1710,7 @@ Transform:
   m_GameObject: {fileID: 465691910}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.56, y: 0.75, z: 169.65}
+  m_LocalPosition: {x: 43.56, y: 5.31, z: 169.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1731,11 +1731,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1668596520
-      Data2: 1316105754
-      Data3: 859965313
-      Data4: 744745756
-    Path: event:/Street ambience
+      Data1: 969263401
+      Data2: 1193582821
+      Data3: 1817320097
+      Data4: 1328812640
+    Path: event:/AC
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -1744,9 +1744,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 1
+  OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 35
+  OverrideMaxDistance: 20
 --- !u!1 &474398661
 GameObject:
   m_ObjectHideFlags: 0
@@ -1773,7 +1773,7 @@ Transform:
   m_GameObject: {fileID: 474398661}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 49.52, y: 13.8, z: 138.16}
+  m_LocalPosition: {x: 49.83, y: 7.03, z: 143.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1807,9 +1807,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 1
+  OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 30
+  OverrideMaxDistance: 20
 --- !u!223 &488814587 stripped
 Canvas:
   m_CorrespondingSourceObject: {fileID: 2195389651098469371, guid: da024e0a2502e914db645a78af4b3549, type: 3}
@@ -2445,7 +2445,7 @@ Transform:
   m_GameObject: {fileID: 772757620}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.07, y: 16.97, z: 140.02}
+  m_LocalPosition: {x: 19.54, y: 5.31, z: 130.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2479,9 +2479,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 1
+  OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 30
+  OverrideMaxDistance: 20
 --- !u!1001 &790541216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3243,7 +3243,7 @@ GameObject:
   - component: {fileID: 858002839}
   - component: {fileID: 858002840}
   m_Layer: 0
-  m_Name: Street
+  m_Name: AC (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3258,7 +3258,7 @@ Transform:
   m_GameObject: {fileID: 858002838}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 59.87, y: 0.08, z: 163.53}
+  m_LocalPosition: {x: 63.51, y: 5.31, z: 161.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3279,11 +3279,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1668596520
-      Data2: 1316105754
-      Data3: 859965313
-      Data4: 744745756
-    Path: event:/Street ambience
+      Data1: 969263401
+      Data2: 1193582821
+      Data3: 1817320097
+      Data4: 1328812640
+    Path: event:/AC
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -3292,9 +3292,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 1
+  OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 35
+  OverrideMaxDistance: 20
 --- !u!1 &865529133
 GameObject:
   m_ObjectHideFlags: 0
@@ -4158,7 +4158,7 @@ GameObject:
   - component: {fileID: 1254200654}
   - component: {fileID: 1254200655}
   m_Layer: 0
-  m_Name: Street
+  m_Name: AC (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4173,7 +4173,7 @@ Transform:
   m_GameObject: {fileID: 1254200653}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.39, y: 2.25, z: 141.55}
+  m_LocalPosition: {x: 20.39, y: 5.31, z: 141.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4194,11 +4194,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1668596520
-      Data2: 1316105754
-      Data3: 859965313
-      Data4: 744745756
-    Path: event:/Street ambience
+      Data1: 969263401
+      Data2: 1193582821
+      Data3: 1817320097
+      Data4: 1328812640
+    Path: event:/AC
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -4207,9 +4207,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 1
+  OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 35
+  OverrideMaxDistance: 20
 --- !u!1 &1258754792
 GameObject:
   m_ObjectHideFlags: 0
@@ -4656,7 +4656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1405298184}
   m_Layer: 0
-  m_Name: Ambiance
+  m_Name: AC Units
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5096,7 +5096,7 @@ GameObject:
   - component: {fileID: 1592138128}
   - component: {fileID: 1592138129}
   m_Layer: 0
-  m_Name: Street
+  m_Name: AC (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5111,7 +5111,7 @@ Transform:
   m_GameObject: {fileID: 1592138127}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.16, y: -2.02, z: 162.5}
+  m_LocalPosition: {x: 25.16, y: 5.31, z: 162.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5132,11 +5132,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1668596520
-      Data2: 1316105754
-      Data3: 859965313
-      Data4: 744745756
-    Path: event:/Street ambience
+      Data1: 969263401
+      Data2: 1193582821
+      Data3: 1817320097
+      Data4: 1328812640
+    Path: event:/AC
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -5145,9 +5145,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 1
+  OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 35
+  OverrideMaxDistance: 20
 --- !u!1 &1647177131
 GameObject:
   m_ObjectHideFlags: 0
@@ -5232,7 +5232,7 @@ Transform:
   m_GameObject: {fileID: 1655634073}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.36, y: 19.41, z: 153.4}
+  m_LocalPosition: {x: 19.45, y: 5.31, z: 154.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5266,9 +5266,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 1
+  OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 30
+  OverrideMaxDistance: 20
 --- !u!1 &1667188280
 GameObject:
   m_ObjectHideFlags: 0
