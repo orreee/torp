@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: 475a672a2b275de429be4dc686d6bc3f
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 0bda92e4-00c5-44f0-a104-64746e5c5890-0
+    second: {fileID: 2800000, guid: 403b093a4de3f674180ce82a812bf00b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2011-06-11-09562
+    second: {fileID: 2800000, guid: 3d55d5c8fbdf1b246b2605816e1aa899, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 38600572-5ac7-4156-af4c-4a2346e4c993-1
+    second: {fileID: 2800000, guid: 38ddafc0c15598e4b957fe9b369f14cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 57edc848-0715-404f-9c8f-dc354375336d-0
+    second: {fileID: 2800000, guid: d0fa52cb7d9d1a24686d1c9771213ad2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 603587a6-c473-471a-8d61-ed1e6e31a064-0
+    second: {fileID: 2800000, guid: 4704a7518a2225541b125bd028665ae4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal-Sense_BROWN-METAL
+    second: {fileID: 2800000, guid: a3a1968cc3b4be94d813788578854bae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metalizzed_Rust_Brown_Metal_Effect_Tile_60_x_60cm_79c5090e-cabd-4573-acad-67ec0cc2ecc3
+    second: {fileID: 2800000, guid: 6523b7e5352a88f48b3a1a0f404eaabc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: c95311e3-a6fb-4039-9938-d4c7cace9e2b-1
+    second: {fileID: 2800000, guid: b18e36f08aff6384fa52123da1cb9023, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cb260ec0-d9de-4d62-b728-ed0389bd7b44-0
+    second: {fileID: 2800000, guid: e97ab69e46a81074a8818158cb5b3881, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cb260ec0-d9de-4d62-b728-ed0389bd7b44-1
+    second: {fileID: 2800000, guid: 3dfeefdcea7ed614bbd7c140aeee8488, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ce9efc7c-da3b-4d9a-9e3c-f4b94dfe1f33-0
+    second: {fileID: 2800000, guid: b91671363874e6e4eaa6e5a6ff534cb4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: concrete_layers_02_diff_4k
+    second: {fileID: 2800000, guid: e98eea564790b914f809e7ae9fa5b188, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: d814qfp-7013ef05-f0c2-47b8-a354-844901489451
+    second: {fileID: 2800000, guid: 27315642098259b4f90e622ab59b0528, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: darkwood
+    second: {fileID: 2800000, guid: 96e8d2de72dd0474fb03b53acf011ff8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: f81af0b3-342c-445f-82fc-c836468ec513-0
+    second: {fileID: 2800000, guid: bab2fdac294674348bc2f08aafe1da0f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: fde3007b-8b8b-4e88-a021-8f5cabf07dec-0
+    second: {fileID: 2800000, guid: a0d96b7a33d29ad4ea989b8f75d54284, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: front
+    second: {fileID: 2800000, guid: 14bbca9b2b9c2524fb1938b6b027c19f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: interior_tiles_diff_4k
+    second: {fileID: 2800000, guid: 64159cb77bb5126419c87d900b6e6ccd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: newspaper
+    second: {fileID: 2800000, guid: 99cf75302a7e51349998b40612bd589d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: others_0016_color_1k
+    second: {fileID: 2800000, guid: 84e50645c8760d5459a2512ec81cc384, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: others_0016_normal_opengl_1k
+    second: {fileID: 2800000, guid: 21a926215b5c0014ab1ca018728ac551, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: others_0016_roughness_1k
+    second: {fileID: 2800000, guid: 96c9759d24a354648b7b3e1b6df5a1ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pixilated tiles
+    second: {fileID: 2800000, guid: e77bcd7384548f54da535fa681658696, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: roof
+    second: {fileID: 2800000, guid: 182a3a7d7eef0724687ee1aed79d699d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rustedmetal
+    second: {fileID: 2800000, guid: e43b939f51f2f9e48bfc6c0b188bb806, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rusty-metal-door-stockcake
+    second: {fileID: 2800000, guid: e2b69143c6344974e98a8be081583d9a, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
