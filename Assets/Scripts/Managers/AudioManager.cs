@@ -6,6 +6,7 @@ public class AudioManager : MonoBehaviour
     public static AudioManager instance;
     private Bus masterBus;
     private Bus musicBus;
+    private Bus sfxBus;
     private void Awake()
     {
         if(instance == null)
@@ -22,11 +23,13 @@ public class AudioManager : MonoBehaviour
     void SetBuses()
     {
         masterBus = RuntimeManager.GetBus("bus:/");
-        //musicBus = RuntimeManager.GetBus("bus:/Music");
+        musicBus = RuntimeManager.GetBus("bus:/Music");
+        sfxBus = RuntimeManager.GetBus("bus:/SFX");
     }
-    public void SetVolume(float master, float music)
+    public void SetVolume(float master, float music, float sfx)
     {
         masterBus.setVolume(master);
-        //musicBus.setVolume(music);
+        musicBus.setVolume(music);
+        sfxBus.setVolume(sfx);
     }
 }
