@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Music</value>
 		</property>
+		<relationship name="masters">
+			<destination>{0525365c-bad2-4984-8541-b8013f438fe6}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{1c06d4e2-846e-423d-b3b4-d84c0632e41c}</destination>
 		</relationship>
@@ -11,7 +14,7 @@
 			<destination>{c15d3a85-5f3b-4c55-bfcf-dbc32ad8de48}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{155075a3-9c3a-423f-83ea-5caaa1fc3210}</destination>
+			<destination>{89500437-224e-4dbd-859f-7dad73e316dc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{1c06d4e2-846e-423d-b3b4-d84c0632e41c}">
