@@ -22,11 +22,11 @@ public class AudioManager : MonoBehaviour
     void SetBuses()
     {
         masterBus = RuntimeManager.GetBus("bus:/");
-        musicBus = RuntimeManager.GetBus("bus:/Music");
+        //musicBus = RuntimeManager.GetBus("bus:/Music");
     }
     public void SetVolume(float master, float music)
     {
         masterBus.setVolume(master);
-        musicBus.setVolume(music);
+        //musicBus.setVolume(music);
     }
 }
