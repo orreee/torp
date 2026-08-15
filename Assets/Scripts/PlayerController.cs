@@ -5,31 +5,35 @@ public class PlayerController : MonoBehaviour
 {
     public float speed;
     float default_speed = 5.0f;
+    float gravity = -9.82f;
     Rigidbody rb;
-    Vector3 move_dir;
+    CharacterController cc;
+    Vector2 moveInput;
+    Vector3 velocity;
     [SerializeField] InputActionReference move;
     void Start()
     {
+        cc = GetComponent<CharacterController>();
         rb = GetComponent<Rigidbody>();
         speed = speed == 0 ? default_speed : speed;
         Init();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        move_dir = move.action.ReadValue<Vector2>();
-    }
-
     private void Init()
     {
         Cursor.lockState = CursorLockMode.Locked;
-        //Cursor.lockState = CursorLockMode.None;
+    }
+
+    public void OnMove(InputAction.CallbackContext ctx)
+    {
+        moveInput = ctx.ReadValue<Vector2>();
     }
 
     void FixedUpdate()
     {
-        Vector3 dir = (transform.right * move_dir.x + transform.forward * move_dir.y) * speed;
-        rb.linearVelocity = new Vector3(dir.x, rb.linearVelocity.y, dir.z);
+        Vector3 move = transform.right * moveInput.x + transform.forward * moveInput.y;
+        cc.Move(move * speed * Time.deltaTime);
+        velocity.y += gravity * Time.deltaTime;
+        cc.Move(velocity * Time.deltaTime);
     }
 }

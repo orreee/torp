@@ -13,6 +13,10 @@ public class InteractionController : MonoBehaviour
     [SerializeField]
     float interaction_distance = 5f;
 
+    [SerializeField]
+    InputActionReference input;
+
+
     IInteractable current_targeted_interactable;
 
     bool able = false;
@@ -54,14 +58,13 @@ public class InteractionController : MonoBehaviour
             interaction_text.text = string.Empty;
             return;
         }
-        switch (able)
+        if (able)
         {
-            case true:
-                interaction_text.text = current_targeted_interactable.InteractMessage;
-                break;
-            case false:
-                interaction_text.text = current_targeted_interactable.CantInteractMessage;
-                break;
+            interaction_text.text = current_targeted_interactable.InteractMessage;
+        }
+        else
+        {
+            interaction_text.text = current_targeted_interactable.CantInteractMessage;
         }
     }
 
@@ -80,7 +83,7 @@ public class InteractionController : MonoBehaviour
         {
             return;
         }
-        if (Keyboard.current.eKey.wasPressedThisFrame && able)
+        if (input.action.WasPerformedThisFrame() && able)
         {
             current_targeted_interactable.Interact(gameObject);
         }
