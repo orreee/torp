@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     CharacterController cc;
     Vector2 moveInput;
     Vector3 velocity;
-    [SerializeField] InputActionReference move;
+    //[SerializeField] InputActionReference move;
     void Start()
     {
         cc = GetComponent<CharacterController>();

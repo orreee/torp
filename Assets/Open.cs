@@ -21,7 +21,10 @@ public class Open : MonoBehaviour, IInteractable
     public virtual void Interact(GameObject other)
     {
         player.transform.rotation = coordinates.transform.rotation;
-        player.transform.position = coordinates.transform.position;
+        CharacterController temp = player.GetComponent<CharacterController>();
+        temp.enabled = false;
+        player.transform.position = coordinates.transform.position; //character controller would have ignored this
+        temp.enabled = true;
     }
 
 }

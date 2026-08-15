@@ -10,6 +10,8 @@ public class PauseScreenLogic : MonoBehaviour
     GameObject MainMenu;
     [SerializeField]
     GameObject SettingsMenu;
+    [SerializeField]
+    GameObject entryObject;
     public void LeaveOrEnter(bool paused)
     {
         if (!paused)
@@ -23,7 +25,6 @@ public class PauseScreenLogic : MonoBehaviour
     }
     void Enter()
     {
-        GameObject entryObject = MainMenu.gameObject.GetComponent<PauseMainMenuLogic>().GetEntryObject();
         _eventSystem.SetSelectedGameObject(entryObject);
     }
     void Leave()
@@ -41,5 +42,6 @@ public class PauseScreenLogic : MonoBehaviour
     {
         MainMenu.SetActive(true);
         SettingsMenu.SetActive(false);
+        _eventSystem.SetSelectedGameObject(entryObject);
     }
 }
