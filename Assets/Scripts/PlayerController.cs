@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody rb;
     CharacterController cc;
     Vector2 moveInput;
-    Vector3 velocity;
+    public Vector3 velocity;
     //[SerializeField] InputActionReference move;
     void Start()
     {
@@ -35,5 +35,9 @@ public class PlayerController : MonoBehaviour
         cc.Move(move * speed * Time.deltaTime);
         velocity.y += gravity * Time.deltaTime;
         cc.Move(velocity * Time.deltaTime);
+        if (cc.isGrounded)
+        {
+            velocity.y = 0;
+        }
     }
 }

@@ -53,6 +53,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   speed: 0
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!114 &8041483199670608231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,7 +184,19 @@ MonoBehaviour:
     m_ActionId: a4bf3f94-006e-4be4-8402-2f2d30de5913
     m_ActionName: 'Player/Interact[/Keyboard/e]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7270735827614580504}
+        m_TargetAssemblyTypeName: UIController, Assembly-CSharp
+        m_MethodName: OnPause
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: eef1302b-d5a5-455c-a618-a3e81737b3e8
     m_ActionName: 'Player/MenuInput[/Keyboard/escape]'
   - m_PersistentCalls:
@@ -228,7 +241,7 @@ CharacterController:
   m_Height: 2
   m_Radius: 0.5
   m_SlopeLimit: 45
-  m_StepOffset: 0.5
+  m_StepOffset: 0.7
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
