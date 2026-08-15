@@ -22,6 +22,7 @@ public class PauseHandler : MonoBehaviour
         {
             Cursor.lockState = CursorLockMode.Locked;
         }
+        pauseScreen.gameObject.GetComponent<PauseScreenLogic>().LeaveOrEnter(paused);
         Invert();
         paused = !paused;
     }
